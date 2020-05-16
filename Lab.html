@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML LAB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <div>
+        <h2>Attribute </h2>
+    </div>
+    <table style="border-color: black;width: 1500px;" border="2">
+        <thead>
+            <th>Tag name</th>
+
+            <th>Attribute</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">&lt;h1&gt; - &lt;h6&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;p&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;div&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;img&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                    <span>src ใช่ระบุ url แหล่งที่มาของไฟล์</span><br>
+                    <span>alt ใส่ข้อความ จะแสดงเมื่อเกิดข้อผิดพลาด</span><br>
+                    <span>height กำหนดความสูงของภาพหน่วยเป็น pixels หรือ %</span><br>
+                    <span>width กำหนดความกว้างของภาพหน่วยเป็น pixels หรือ %</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;a&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                    <span>charset กำหนดการเข้าระหัส</span><br>
+                    <span>download กำหนด url ไฟล์ดาวโหลด</span><br>
+                    <span>href กำหนด url สำหรับการเชื่อมโยง</span><br>
+                    <span>target กำหนดการเปิดการเชื่อโยงแบบใด เช่น _blank จะเปิดหน้าต่างใหม่</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;ul&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;ol&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                    <span>reversed เรียงลำดับเลขจากมากไปน้อย</span><br>
+                    <span>start เริ่มเรียงลำดับจากเลขที่กำหนด</span><br>
+                    <span>type กำหนดการเรียงลำดับในรูปแบบต่างๆ เช่น 123,ABC</span>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">&lt;table&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">&lt;form&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                    <span>accept-charset กำหนดการเข้าระหัส</span><br>
+                    <span>action ระบุ url ว่าจะส่งข้อมูลที่อยู่ใน form ไปประมาวลผลที่ใดๆ</span><br>
+                    <span>autocomplete ระบุว่าแบบฟอร์มควรมีการเติมข้อความอัตโนมัติหรือไม่</span><br>
+                    <span>enctype ใช้เพื่อเข้ารหัสเนื้อหาของแบบฟอร์ม</span><br>
+                    <span>method ระบุวิธีการ HTTP ที่จะใช้เมื่อส่งแบบฟอร์ม(get,post)</span><br>
+                    <span>name กำหนดชื่อเฉพาะสำหรับแบบฟอร์ม</span><br>
+                    <span>novalidate ระบุว่าไม่ควรตรวจสอบความถูกต้องของฟอร์มเมื่อส่ง</span><br>
+                    <span>target กำหนดการเปิดการเชื่อโยงหลังจาก submit เช่น _blank จะเปิดหน้าต่างใหม่</span>
+                </td>
+
+            </tr>
+            <tr>
+                <td style="text-align: center;">&lt;button&gt;</td>
+                <td>
+                    <span>Global Attiribute เช่น style,id,class</span><br>
+                    <span>autofocus ระบุว่าปุ่มควรมีโฟกัสเข้าเมื่อหน้าโหลด</span><br>
+                    <span>disabled ระบุปุ่มถูกปิดใช้งาน</span><br>
+                    <span>form ระบุรูปแบบที่เป็นของปุ่ม</span><br>
+                    <span>formaction ระบุลิงก์ที่ส่งแบบฟอร์ม</span><br>
+                    <span>formenctype ระบุวิธีเข้ารหัสข้อมูลในแบบฟอร์มก่อนส่งไปยังเซิร์ฟเวอร์(application,
+                        multipart/form-data,
+                        text/plain)</span><br>
+                    <span>formmethod ระบุวิธีส่งข้อมูลฟอร์ม(get,post)</span><br>
+                    <span>formnovalidate ระบุว่าไม่ควรตรวจสอบความถูกต้องของข้อมูลแบบฟอร์ม</span><br>
+                    <span>formtarget ระบุตำแหน่งที่ควรตรวจสอบการตอบสนอง เช่น blank จะเปิดหน้าต่างใหม่</span><br>
+                    <span>name ระบุชื่อปุ่ม</span><br>
+                    <span>type ระบุประเภทของปุ่ม</span><br>
+                    <span>value ระบุค่าเริ่มต้นของปุ่ม</span>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Differentiation</h2>
+
+    <table style="border-color: black;width: 1500px;" border="2">
+        <thead>
+            <th>Tag name</th>
+            <th>Tag name</th>
+            <th>Tag name</th>
+            <th>Similarity</th>
+            <th>Different</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td style="text-align: center;">
+                    <span> &lt;hr&gt;</span><br>
+                    <hr>
+                </td>
+
+                <td style="text-align: center;">
+                    <span> &lt;br&gt;</span>
+                </td>
+                <td></td>
+                <td>
+                    <span>Empty Elements</span>
+                </td>
+
+                <td>
+                    <span>&lt;hr&gt; ใช้แสดงขีดเส้นตามแนวขวาง</span><br>
+                    <span>&lt;br&gt; ใช้เพื่อขึ้นบรรทัดใหม่</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <span> &lt;ul&gt;</span><br>
+                    <span>
+                        <ul>
+                            <li>list 1</li>
+                            <li>list 2</li>
+                            <li>list 3</li>
+                        </ul>
+                    </span>
+                </td>
+
+                <td style="text-align: center;">
+                    <span> &lt;ol&gt;</span>
+                    <span>
+                        <ol>
+                            <li>list 1</li>
+                            <li>list 2</li>
+                            <li>list 3</li>
+                        </ol>
+                    </span>
+                </td>
+                <td></td>
+                <td>
+                    <span>Nested HTML Elements</span><br>
+                    <span>ใช้แสดงรายการข้อมูล</span>
+                </td>
+
+                <td>
+                    <span>&lt;ul&gt; ใช้สำหรับสร้างรายการที่ไม่ได้เรียงลำดับ</span><br>
+                    <span>&lt;ol&gt; ใช้สำหรับสร้างรายการที่เรียงลำดับ</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">
+                    <span> &lt;select&gt;</span><br>
+                    <span>
+                        <select name="dropdown">
+                            <option value="select 1">select 1</option>
+                            <option value="select 2">select 2</option>
+                            <option value="select 3">select 3</option>
+                        </select>
+                    </span>
+                </td>
+
+                <td style="text-align: center;">
+                    <span>checkbox</span><br>
+                    <span>
+
+                        <input type="checkbox" id="check1" name="check" value="1"></input>
+                        <label for="check1">checkbox 1</label><br>
+                        <input type="checkbox" id="check2" name="check" value="2"></input>
+                        <label for="check2">checkbox 2</label><br>
+                        <input type="checkbox" id="check3" name="check" value="3"></input>
+                        <label for="check3">checkbox 3</label><br>
+
+                    </span>
+                </td>
+                <td style="text-align: center;">
+                    <span>
+                        <span>radio button</span><br>
+                    </span>
+                    <span>
+
+                        <input type="radio" id="radio1" name="rad" value="1">
+                        <label for="radio1">radio 1</label><br>
+                        <input type="radio" id="radio2" name="rad" value="2">
+                        <label for="radio2">radio 2</label><br>
+                        <input type="radio" id="radio3" name="rad" value="3">
+                        <label for="radio3">radio 3</label>
+                    </span>
+                </td>
+                <td>
+                    <span>Input Elements</span>
+                </td>
+
+                <td>
+                    <span>&lt;select&gt; เลือกข้อมูลได้เพียงอย่างใดอย่างนึง
+                        และจะแดงเฉพาะข้อมูลที่ถูกเลือกเท่านั้น</span><br>
+                    <span>type="checkbox" เป็น type="checkbox" เป็น value type ของ attribute
+                        สามารถเลือกข้อมูลได้มากกว่าหนึ่งอย่าง
+                        และแสดงข้อมูลทั้งหมดทั้งที่ถูกเลือกและไม่ถูกเลือก</span><br>
+                    <span>type="radio" เป็น type="radio" เป็น value type ของ attribute
+                        สามารถเลือกข้อมูลได้อย่างใดอย่างหนึ่ง
+                        และแสดงข้อมูลทั้งหมดทั้งที่ถูกเลือกและไม่ถูกเลือก</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <span> &lt;div&gt;</span><br>
+                    <div>this is div 1</div>
+                    <div>this is div 2</div>
+
+                </td>
+
+                <td style="text-align: center;">
+                    <span> &lt;span&gt;</span><br>
+                    <span>This is span 1</span>
+                    <span>This is span 2</span>
+                </td>
+                <td></td>
+                <td>
+                    <span>Nested HTML Elements</span>
+                </td>
+
+                <td>
+                    <span>&lt;div&gt; กล่องข้อความ อยู่บรรทัดถัดไปจาก element ก่อนหน้า</span><br>
+                    <span>&lt;span&gt; กล่องข้อความอยู่ในบรรทัดเดี่ยวกันกับ element ก่อนหน้า</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <span> &lt;style&gt;</span><br>
+                </td>
+
+                <td style="text-align: center;">
+                    <span> &lt;script&gt;</span><br>
+                </td>
+                <td></td>
+                <td>
+                    <span>Nested HTML Elements</span>
+                </td>
+
+                <td>
+                    <span>&lt;style&gt; ใช้สำหรับประกาศสไตล์ชีทภายในส่วนหัวของเอกสาร HTML </span><br>
+                    <span>&lt;script&gt; ใช้สำหรับประกาศสคริปต์ (เช่น JavaScript) ภายในเอกสาร HTML</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Input type</h2>
+    <Table style="border-color: black;width: 1500px;" border="2">
+        <thead>
+            <th>Input Type</th>
+            <th>Description</th>
+            <th>Basic Example</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>button</td>
+                <td><span>ปุ่มกด</span></td>
+                <td><button>button</button></td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td><span>ช่องทำเครื่องหมายอนุญาตให้เลือก / ยกเลิกการเลือกค่าเดียว</span></td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td><span>ใช้สำหรับการระบุสี</span></td>
+                <td>
+                    <input type="color">
+                </td>
+            </tr>
+            <tr>
+                <td>date</td>
+                <td><span>ใช้สำหรับการระบุวันที่</span></td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>datetime-local</td>
+                <td><span>ใช้สำหรับการระบุวันที่โดยไม่มีเขตเวลา</span></td>
+                <td>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+
+            <tr>
+                <td>email</td>
+                <td><span>ใช้สำหรับการระบุอีเมล</span></td>
+                <td>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td><span>ใช้สำหรับอัพโหลดไฟล์</span></td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td><span>ตัวควบคุมที่ไม่ปรากฏขึ้น แต่มีการส่งค่าไปยังเซิร์ฟเวอร์ มีตัวอย่างในคอลัมน์ถัดไป แต่ซ่อนอยู่!</span></td>
+                <td>
+                    <input type="hidden">
+                </td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td><span>ปุ่มส่งแบบกราฟิก แสดงรูปภาพที่กำหนดโดยแอ็ตทริบิวต์ src แอตทริบิวต์ alt แสดงขึ้นมาหากรูปภาพ src หายไป</span></td>
+                <td>
+                    <input type="image" src="https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png">
+                </td>
+            </tr>
+            <tr>
+                <td>month</td>
+                <td><span>ใช้สำหรับการป้อนเดือนและปีโดยไม่มีเขตเวลา</span></td>
+                <td>
+                    <input type="month">
+                </td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td><span>ใช้สำหรับการป้อนตัวเลข แสดงสปินเนอร์และเพิ่มการตรวจสอบความถูกต้อง</span></td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><span>ฟิลด์ข้อความบรรทัดเดียวที่มีค่าถูกบดบัง จะแจ้งเตือนผู้ใช้หากไซต์ไม่ปลอดภัย</span></td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td><span>ปุ่มตัวเลือกที่อนุญาตให้เลือกค่าเดียวจากหลายตัวเลือกด้วยค่าชื่อเดียวกัน</span></td>
+                <td>
+                    <input type="radio">
+                </td>
+            </tr>
+            <tr>
+                <td>range</td>
+                <td><span>ตัวควบคุมสำหรับการป้อนหมายเลขที่ค่าที่แน่นอนไม่สำคัญ แสดงเป็นวิดเจ็ตช่วงที่กำหนดค่าเริ่มต้นเป็นค่ากลาง </span></td>
+                <td>
+                    <input type="range">
+                </td>
+            </tr>
+            <tr>
+                <td>reset</td>
+                <td><span>ปุ่มที่รีเซ็ตเนื้อหาของแบบฟอร์มเป็นค่าเริ่มต้น</span></td>
+                <td>
+                    <input type="reset">
+                </td>
+            </tr>
+            <tr>
+                <td>search</td>
+                <td><span>
+                    ฟิลด์ข้อความบรรทัดเดียวสำหรับป้อนสตริงการค้นหา ตัวแบ่งบรรทัดจะถูกลบออกจากค่าอินพุตโดยอัตโนมัติ อาจมีไอคอนลบในการสนับสนุนเบราว์เซอร์ที่สามารถใช้ล้างฟิลด์ แสดงไอคอนค้นหาแทนการป้อนปุ่มบนอุปกรณ์บางอย่างที่มีแผงปุ่มกดแบบไดนามิก</span></td>
+                <td>
+                    <input type="search">
+                </td>
+            </tr>
+            <tr>
+                <td>submit</td>
+                <td><span>ปุ่มกด submit ฟอร์ม</span></td>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td><span>ตัวควบคุมสำหรับการป้อนหมายเลขโทรศัพท์ แสดงปุ่มกดโทรศัพท์ในบางอุปกรณ์ที่มีแผงปุ่มกดแบบไดนามิก</span></td>
+                <td>
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td><span>ค่าเริ่มต้น ฟิลด์ข้อความบรรทัดเดียว ตัวแบ่งบรรทัดจะถูกลบออกจากค่าอินพุตโดยอัตโนมัติ</span></td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td><span>ตัวควบคุมสำหรับการป้อนค่าเวลาโดยไม่มีเขตเวลา</span></td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <td>url</td>
+                <td><span>ฟิลด์สำหรับป้อน URL ดูเหมือนว่าป้อนข้อความ แต่มีพารามิเตอร์การตรวจสอบและแป้นพิมพ์ที่เกี่ยวข้องในการสนับสนุนเบราว์เซอร์และอุปกรณ์ที่มีแป้นพิมพ์แบบไดนามิก</span></td>
+                <td>
+                    <input type="url">
+                </td>
+            </tr>
+            <tr>
+                <td>week</td>
+                <td><span>ตัวควบคุมสำหรับการป้อนวันที่ประกอบด้วยหมายเลขสัปดาห์ปีและหมายเลขสัปดาห์โดยไม่มีเขตเวลา</span></td>
+                <td>
+                    <input type="week">
+                </td>
+            </tr>
+        </tbody>
+    </Table>
+
+
+</body>
+
+</html>
