@@ -75,6 +75,16 @@ h2 {
     padding: 0;
 }
 
+* ::before,*::after{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
 
 :root {
     --main-white: #f0f0f0;
@@ -92,6 +102,10 @@ a {
     color: var(--main-white);
 }
 
+img {
+    display: block;
+    width: 100%;
+}
 /* nav */
 
 .nav {
@@ -120,7 +134,7 @@ a {
     padding: 2rem;
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
     background: var(--main-blue);
 }
 
@@ -206,9 +220,9 @@ a {
 }
 
 .btn {
-    display:inline-block;
-    padding:1rem 2rem;
-    border-radius:2px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
 }
 
 .btn-show-all {
@@ -221,7 +235,7 @@ a {
     background: var(--main-red);
 }
 
-.btn-show-all > i {
+.btn-show-all:hover > i {
     transform: translateX(2px);
 }
 
@@ -249,7 +263,7 @@ a {
 @media (max-width: 28.75em)
 {
     .contact-section-header > h2 {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 }
 
