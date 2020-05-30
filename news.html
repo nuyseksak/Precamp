@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>เว็บข่าว</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+          .container {
+            margin-left: 50px;
+            margin-right: 50px;
+
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr;
+            grid-row: minmax(100px, auto);
+            grid-gap: 1em;
+            text-align: center;
+        }
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+
+        .wrapper > .nav {
+            grid-column: 1/5;
+            background: #ddd;
+        }
+
+        .header-1{
+            height: 5rem;
+        }
+
+        .wrapper > .header-1{
+            grid-column: 1/5;
+        }
+
+        .header-2{
+            height: 5rem;
+            border-radius: 5px;
+        }
+
+        .wrapper > .header-2{
+            grid-column: 1/5;
+        }
+ 
+        .news-paper{
+            text-align: center;
+            height: 500px;
+        }
+        .wrapper > .news-paper {
+            grid-column: 1/4;
+        }
+
+        .wrapper > .scoop{
+            grid-column: 4/5;
+        }
+
+        .wrapper > .news-collection1{
+            display: grid;
+            grid-column: 1/5;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-row: minmax(auto, auto);
+            grid-gap: 1em;
+            text-align: center;
+            background-color: white;
+            padding: 0em;
+        }
+
+        .news-collection1>div {
+            background: #eee;
+            padding: 1em;
+            height: 10rem;
+        }
+
+        .news-collection1>div:nth-child(odd) {
+            background: #ddd;
+        }
+
+        .news{
+            height: 8rem;
+        }
+
+        .wrapper > footer {
+            grid-column: 1/5;
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="wrapper">
+            <nav class="nav">
+
+                <ul>
+                    <il>Nav</il>
+                    <il><a href="#">Menu 1</a></il>
+                    <il><a href="#">Menu 2</a></il>
+                    <il><a href="#">Menu 3</a></il>
+                </ul>
+            </nav>
+
+            <div class="header-1">grid-column: 1/5</div>
+            <div class="news-paper">grid-column: 1/4</div>
+            <div class="scoop">grid-column: 4/5</div>
+            <div class="header-2">grid-column: 1/5</div>
+            <div class="news-collection1">
+                <div>News 1</div>
+                <div>News 2</div>
+                <div>News 3</div>
+                <div>News 4</div>
+                <div>News 5</div>
+                <div>News 6</div>
+            </div>
+
+           
+           
+            <div class="news">News 1</div>
+            <div>News 2</div>
+            <div>News 3</div>
+            <div>News 4</div>
+            <div class="news">News 5</div>
+            <div>News 6</div>
+            <div>News 7</div>
+            <div>News 8</div>
+
+            <footer>
+                <ul>
+                    <il>footer</il>
+                    <il><a href="#">Menu 1</a></il>
+                    <il><a href="#">Menu 2</a></il>
+                    <il><a href="#">Menu 3</a></il>
+                </ul>
+            </footer>
+        
+        </div>
+
+       
+
+    </div>
+</body>
+
+</html>

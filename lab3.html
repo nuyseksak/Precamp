@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 3</title>
+    <style>
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+    <h2>Tooltips : </h2>คือ กล่องข้อความ สำหรับอธิบายลายละเอียดของข้อความ ซึงถูกซ้อนเอาไว้จะแสดงเมื่อมีเมาส์ไปชี้
+    โดยจะกำหนดได้ที่ Attibute Title</p>
+    <strong>ตัวอย่าง</strong>
+    <p title="ข้อความ Tooltips">ข้อความ</p>
+    <p>
+    <h2>Pagination : </h2>คือ การแบ่งเอกสารหรือข้อมูลออกเป็นหน้าๆ </p>
+    <strong>ตัวอย่าง</strong><br>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <p>
+    <h2>Navigator bar : </h2>คือ แทบนำทางหรือส่วนของการแสดงเมนู
+    เพื่อให้ผู้ใช้การได้เลือกใชในจุดที่ผู้ใช้งานต้องการและสดวกขึ้น</p>
+    <strong>ตัวอย่าง</strong><br>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <p>
+    <h2>dropdown :</h2>คือ input อย่างนึงซึ่งมี list ข้อมูให้เลือกมากกว่าหนึ่ง
+    แต่สามารถเลือกได้แค่อย่างใดอย่างนึงเท่านั้น</p>
+    <strong>ตัวอย่าง</strong><br>
+    <select name="dropdown">
+        <option value="select 1">select 1</option>
+        <option value="select 2">select 2</option>
+        <option value="select 3">select 3</option>
+    </select>
+</body>
+
+</html>

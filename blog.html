@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-left: 100px;
+            margin-right: 100px;
+
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-row: minmax(100px, auto);
+            grid-gap: 1em;
+           
+        }
+
+        .wrapper>div {
+            background: #eee;
+            height: 10rem;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+        .nav {
+            display: grid;
+            grid-template-columns: 2fr;
+            background: #ddd;
+            padding: 0.5em;
+            margin: 0px;
+            margin-bottom: 30px;
+        }
+
+
+        footer{
+            display: grid;
+            grid-template-columns: 2fr;
+            background: #ddd;
+            padding: 0.5em;
+            margin: 0px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+
+        <ul>
+            <il>Nav </il>
+            <il><a href="#">Menu 1</a></il>
+            <il><a href="#">Menu 2</a></il>
+            <il><a href="#">Menu 3</a></il>
+        </ul>
+    </nav>
+
+    <div class="container">
+       
+        <div class="wrapper">
+            <div>Content 1</div>
+            <div>Content 2</div>
+            <div>Content 3</div>
+            <div>Content 4</div>
+            <div>Content 5</div>
+            <div class="comment">
+                Comment<br>
+                <textarea  rows="5" cols="130">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto deleniti eaque nemo molestias doloribus omnis minus sunt provident tempore quaerat, voluptatem incidunt? Enim, modi perferendis, ullam quidem laboriosam excepturi temporibus consectetur neque voluptate at dolor consequuntur doloribus placeat expedita velit illo voluptates repudiandae quae error tempore beatae? Facere, aut id!
+                </textarea>
+                <br>
+                <button>Send</button>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <ul>
+                <il>footer</il>
+                <il><a href="#">Menu 1</a></il>
+                <il><a href="#">Menu 2</a></il>
+                <il><a href="#">Menu 3</a></il>
+            </ul>
+        </footer>
+</body>
+</html>
